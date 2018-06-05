@@ -138,7 +138,7 @@ require '../../admin/DAL.php';
 
 
 </div>
-<?php include 'footer.php'; ?>
+<?php include '../shared/footer.php'; ?>
 
 </body>
 </html>

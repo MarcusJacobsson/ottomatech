@@ -26,6 +26,7 @@
     <div class="container">
         <?php include 'carousel.php'; ?>
         <div class="row">
+            
             <div class="col-xs-12 col-md-12 col-lg-6 ">
                 <h2>Välkommen till OttoMaTech.se</h2>
                 <hr>
@@ -72,6 +73,6 @@
     </div>
     <div id="push"></div>
 </div>
-<?php include 'footer.php'; ?>
+<?php include '../shared/footer.php'; ?>
 </body>
 </html>

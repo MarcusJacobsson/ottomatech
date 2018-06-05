@@ -2,7 +2,7 @@
 html,
 body {
     height: 100%;
-    background-color: #FBF9D8;
+    background-color: #ffffff;
     color: #664F37;
     /* The html and body elements cannot have any padding or margin. */
 }
@@ -20,11 +20,12 @@ body {
 #push,
 #footer {
     height: 80px;
+    padding-top:10px;
 }
 
 #footer {
-    background-color: #222;
-    color: #9d9d9d;
+    background-color: #c4eaf2;
+    color: #888
 }
 
 /* Lastly, apply responsive CSS fixes as necessary */
@@ -42,7 +43,6 @@ body {
 
 .footer-text {
     text-align: center;
-    padding-top: 20px;
 }
 
 /* FOOTER END */
@@ -55,7 +55,7 @@ body {
 .carousel {
     height: 400px;
     margin-bottom: 60px;
-    margin-top: 49px;
+    margin-top: 80px;
 }
 
 /* Since positioning the image, we need to help out the caption */

@@ -57,9 +57,11 @@
                 <img class="img-responsive" src="../../images/general.png" alt="general">
             </div>
         </div>
+        
     </div>
     <div id="push"></div>
+    
 </div>
-<?php include 'footer.php'; ?>
+<?php include '../shared/footer.php'; ?>
 </body>
 </html>

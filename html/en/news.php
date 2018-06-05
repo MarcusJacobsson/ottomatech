@@ -48,6 +48,6 @@
     </div>
     <div id="push"></div>
 </div>
-<?php include 'footer.php'; ?>
+<?php include '../shared/footer.php'; ?>
 </body>
 </html>

@@ -77,8 +77,6 @@ function test_input($data)
     <link rel="stylesheet" type="text/css" href="../../css/style.css">
     <!-- Egna script -->
     <script src="../../js/nav_set_active.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script src="../../js/googlemaps.js"></script>
     <script src="../../js/validate.js"></script>
     <title>OttoMaTech Contact</title>
 </head>
@@ -88,76 +86,15 @@ function test_input($data)
     <?php include 'nav.php'; ?>
     <div class="container">
         <div class="row" id="first">
-            <div class="col-xs-12 col-md-12 col-lg-12 ">
-                <h2>Här hittar du oss</h2>
-                <hr>
-                <br>
-
-            </div>
-            <div class="col-xs-12 col-md-12 col-lg-9 ">
-                <div class="google-maps">
-                    <div id="map_canvas"></div>
-                </div>
-            </div>
-        </div>
-        <br>
-
-        <div class="row">
-            <div class="col-xs-12 col-md-12 col-lg-4">
-                <address>
-                    <p class="lead">Besöksaddress</p>
-
-                    <p>Stenebäcksvägen 3</p>
-
-                    <p>238 31 Oxie</p>
-
-                    <p>Malmö, Sweden.</p>
-
-                </address>
-            </div>
-        </div>
-        <hr>
-
-        <div class="row">
-            <h2>Kontaktinformation</h2>
-            <br>
-
-            <div class="col-xs-12 col-md-12 col-lg-4">
-                <p><b>Ansvarig: </b>Otto</p>
-
-                <p>E-mail: </p>
-
-                <p>Tel: +(46)(0)720-372259</p>
-            </div>
-
-            <div class="col-xs-12 col-md-12 col-lg-4">
-                <p><b>Web Master:</b> Marcus</p>
-
-                <p>E-mail: </p>
-
-                <p>Tel:</p>
-            </div>
-
-            <div class="col-xs-12 col-md-12 col-lg-4">
-                <p><b>Ekonomiansvarig: </b>Louise Rehn Winsborg</p>
-
-                <p>E-mail: </p>
-
-                <p>Tel: +(46)(0)705-501936</p>
-            </div>
-            <br>
-        </div>
-
-        <hr>
-
-        <div class="row">
             <div class="col-xs-12 col-md-12 col-lg-12">
                 <h2>Har du några frågor eller synpunkter?</h2>
-
+                        
                 <p class="lead">
                     Var vänlig fyll i formen nedan,
                     så återkommer vi till dig så snabbt vi kan.
                 </p>
+                <br>
+                <br>
 
                 <p>Fält markerade med <strong>*</strong> måste fyllas i. Inga uppgifter lagras.</p>
             </div>
@@ -207,6 +144,6 @@ function test_input($data)
     </div>
     <div id="push"></div>
 </div>
-<?php include 'footer.php'; ?>
+<?php include '../shared/footer.php'; ?>
 </body>
 </html>
