@@ -25,7 +25,6 @@
             <ul class="nav navbar-nav">
                 <li id="nav_item_start"><a href="index.php">Hem</a></li>
                 <li id="nav_item_services"><a href="services.php">Tjänster</a></li>
-                <li id="nav_item_news"><a href="news.php">Nyheter</a></li>
                 <li id="nav_item_contact"><a href="contact.php">Kontakt</a></li>
                 <li id="nav_item_sale"><a href="sale.php"><span class="label label-danger">Ny!</span> Försäljning</a></li>
             </ul>

@@ -25,7 +25,6 @@
             <ul class="nav navbar-nav">
                 <li id="nav_item_start"><a href="index.php">Home</a></li>
                 <li id="nav_item_services"><a href="services.php">Services</a></li>
-                <li id="nav_item_news"><a href="news.php">News</a></li>
                 <li id="nav_item_contact"><a href="contact.php">Contact</a></li>
                 <li id="nav_item_sale"><a href="sale.php"><span class="label label-danger">New!</span> Sale</a></li>
             </ul>
