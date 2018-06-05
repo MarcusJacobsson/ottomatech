@@ -33,7 +33,6 @@
                 <hr>
             </div>
             <div class="col-xs-12 col-md-12 col-lg-6">
-
                 <iframe id="fb_iframe"
                         src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fottomatech&amp;width=600&amp;height=590&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=true&amp;show_border=true"
                         scrolling="no" frameborder="0"
@@ -47,9 +46,7 @@
             <div>&nbsp;</div>
         </div>
     </div>
-</div>
-</div>
-<div id="push"></div>
+    <div id="push"></div>
 </div>
 <?php include 'footer.php'; ?>
 </body>
