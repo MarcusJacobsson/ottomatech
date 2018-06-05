@@ -123,7 +123,7 @@ function test_input($data)
             <div class="col-xs-12 col-md-12 col-lg-4">
                 <p><b>Responsible:</b> Otto</p>
 
-                <p>E-mail: <a href="mailto:otto.m@ottomatech.se">otto.m@ottomatech.se</a></p>
+                <p>E-mail:</p>
 
                 <p>Tel: +(46)(0)720-372259</p>
             </div>
@@ -131,7 +131,7 @@ function test_input($data)
             <div class="col-xs-12 col-md-12 col-lg-4">
                 <p><b>Web Master:</b> Marcus</p>
 
-                <p>E-mail: <a href="mailto: marcus.jacobsson@ottomatech.se">marcus.jacobsson@ottomatech.se</a></p>
+                <p>E-mail:</p>
 
                 <p>Tel:</p>
             </div>
