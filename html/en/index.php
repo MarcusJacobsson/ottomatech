@@ -23,8 +23,8 @@
 <body>
 <div id="wrap">
     <?php include 'nav.php'; ?>
-    <?php include 'carousel.php'; ?>
     <div class="container">
+        <?php include 'carousel.php'; ?>
         <div class="row">
             <div class="col-xs-12 col-md-12 col-lg-6 ">
                 <h2>Welcome to OttoMaTech.se</h2>
