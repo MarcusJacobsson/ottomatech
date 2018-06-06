@@ -40,8 +40,8 @@
                             <h4>OttoMaTech Engineering AB Är ett teknikföretag som tillhandahåller systemlösningar och tjänster inom industriell automation.
                                 Vi hjälper dig att hitta den skräddarsydda industriella automationslösningen som passar dina behov.</h4>
 
-                            <a href="#services_section"><button type="button" class="btn">Berätta mer</button></a>
-                            <a href="#about_us_section"><button type="button" class="btn">Vem är ni?</button></a>
+                            <a href="#services_section" class="a-style-inherit"><button type="button" class="btn">Berätta mer</button></a>
+                            <a href="#about_us_section" class="a-style-inherit"><button type="button" class="btn">Vem är ni?</button></a>
                         </div>
                     </div>
                 </div>
