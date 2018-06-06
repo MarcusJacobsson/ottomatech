@@ -16,49 +16,59 @@
         <![endif]-->
         <!-- Custom stylesheet. Modifikationer till boostraps egna stylesheet finns i filen nedan. -->
         <link rel="stylesheet" type="text/css" href="../../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../../css/slide_anim.css">
+        <link rel="stylesheet" type="text/css" href="../../css/backtop_arrow.css">
         <!-- Egna script -->
         <script src="../../js/nav_set_active.js"></script>
+        <script src="../../js/float-panel.js"></script>
+        <script src="../../js/smooth_page_jump.js"></script>
         <title>OttoMaTech Start</title>
     </head>
     <body>
         <div id="wrap">
             <?php include 'nav.php'; ?>
             <div class="container">
-                <?php include 'carousel.php'; ?>
-
-                <div class="row">
-                    <div class="col-lg-4 col-md-12 col-sm-12">
-                        <img src="../../images/navlogotransp.png" class="img-responsive">
-                    </div>
-                    <div class="col-xs-12 col-md-6 col-lg-8">
-                        <div class="page-header">
-                            <h1>Välkommen till OttoMaTech.se!</h1>
+                <div id="welcome-banner-container">
+                    <div class="row" id="first">
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            <img src="../../images/navlogotransp.png" class="img-responsive">
                         </div>
-                        <h4>OttoMaTech Engineering AB Är ett teknikföretag som tillhandahåller systemlösningar och tjänster inom industriell automation.
-                            Vi hjälper dig att hitta den skräddarsydda industriella automationslösningen som passar dina behov.</h4>
+                        <div class="col-xs-12 col-md-12 col-lg-8">
+                            <div class="page-header">
+                                <h1 class="slideanim">Välkommen till OttoMaTech.se!</h1>
+                            </div>
+                            <h4>OttoMaTech Engineering AB Är ett teknikföretag som tillhandahåller systemlösningar och tjänster inom industriell automation.
+                                Vi hjälper dig att hitta den skräddarsydda industriella automationslösningen som passar dina behov.</h4>
+
+                            <a href="#services_section"><button type="button" class="btn btn-primary">Berätta mer</button></a>
+                            <a href="#about_us_section"><button type="button" class="btn btn-primary">Vem är ni?</button></a>
+                        </div>
                     </div>
                 </div>
 
-                <br>
-                <br>
-                <br>
+                <img class="img-responsive img-rounded" src="../../images/welcome-banner.jpg" alt="welcome-banner" id="welcome-banner-img">
 
-                <div class="jumbotron">
+                <div id="services_section" style="margin-bottom: 100px"></div>
+                <div class="page-header top-bottom-50-padding" align="center" >
+                    <h1>Vad kan vi göra för dig?</h1>
+                </div>
+
+                <div class="jumbotron slideanim">
                     <div class="row">
                         <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                             <img class="img-responsive img-rounded index-img" src="../../images/slide/image1.jpg" alt="slide1">
                         </div>
                         <div class="col-xs-6 col-sm-9 col-md-9 col-lg-9">
-                            <p><b>Engineering</b></p>
+                            <h2>Engineering</h2>
                             <p>Förstudier och funktionsbeskrivningar extraheras noggrant ur era specifika fall.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="jumbotron">
+                <div class="jumbotron slideanim">
                     <div class="row">
                         <div class="col-xs-6 col-sm-9 col-md-9 col-lg-9">
-                            <p><b>Automation</b></p>
+                            <h2>Automation</h2>
                             <p>Genom vår spetskompetens inom el och automation hittar vi lösningen som passar dig bäst.</p>
                         </div>
                         <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
@@ -67,22 +77,22 @@
                     </div>
                 </div>
 
-                <div class="jumbotron">
+                <div class="jumbotron slideanim">
                     <div class="row">
                         <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                             <img class="img-responsive img-rounded index-img" src="../../images/slide/image3.jpg" alt="slide3">
                         </div>
                         <div class="col-xs-6 col-sm-9 col-md-9 col-lg-9">
-                            <p><b>PLC/HMI/SCADA</b></p>
+                            <h2>PLC/HMI/SCADA</h2>
                             <p>Vi erbjuder tjänster såsom programmering, mjukvaruutveckling och design.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="jumbotron">
+                <div class="jumbotron slideanim">
                     <div class="row">
                         <div class="col-xs-6 col-sm-9 col-md-9 col-lg-9">
-                            <p><b>Övriga tjänster</b></p>
+                            <h2>Övriga tjänster</h2>
                             <p>Utöver ovan presenterade tjänster erbjuder vi kontinuerlig support och service.</p>
                         </div>
                         <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
@@ -91,10 +101,15 @@
                     </div>
                 </div>
 
+                <div class="slideanim top-bottom-50-padding">
+                    <div align="center">
+                        <h1>Kolla in våra <a href="services.php">tjänster</a> för att läsa mer!</h1>
+                    </div>
+                </div>
 
-
-                <div class="page-header">
-                    <h1>Om OttoMaTech</h1>
+                <div id="about_us_section" style="margin-bottom: 100px"></div>
+                <div class="page-header" align="center">
+                    <h1>Om oss</h1>
                 </div>
 
                 <div class="row">
@@ -125,6 +140,7 @@
                 <br>
                 <br>
                 <br>
+                <div id="backtop">&#9650;</div>
             </div>
             <div id="push"></div>
         </div>

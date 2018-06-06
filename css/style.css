@@ -141,6 +141,24 @@ body {
     padding-right: 10px;
 }
 
+.jumbotron{
+    background-color: #f7f7f7;
+}
+
+#welcome-banner-container{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#welcome-banner-img{
+    padding-bottom: 250px;
+}
+
+.top-bottom-50-padding{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
 .ellipsis tbody tr td{
     max-width:50px; /* Customise it accordingly */
     white-space: nowrap;
