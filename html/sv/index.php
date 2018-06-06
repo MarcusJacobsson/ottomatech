@@ -40,13 +40,13 @@
                             <h4>OttoMaTech Engineering AB Är ett teknikföretag som tillhandahåller systemlösningar och tjänster inom industriell automation.
                                 Vi hjälper dig att hitta den skräddarsydda industriella automationslösningen som passar dina behov.</h4>
 
-                            <a href="#services_section"><button type="button" class="btn btn-primary">Berätta mer</button></a>
-                            <a href="#about_us_section"><button type="button" class="btn btn-primary">Vem är ni?</button></a>
+                            <a href="#services_section"><button type="button" class="btn">Berätta mer</button></a>
+                            <a href="#about_us_section"><button type="button" class="btn">Vem är ni?</button></a>
                         </div>
                     </div>
                 </div>
 
-                <img class="img-responsive img-rounded" src="../../images/welcome-banner.jpg" alt="welcome-banner" id="welcome-banner-img">
+                <img class="img-responsive img-rounded" src="../../images/welcome-banner.jpg" alt="welcome-banner">
 
                 <div id="services_section" style="margin-bottom: 100px"></div>
                 <div class="page-header top-bottom-50-padding" align="center" >
@@ -107,8 +107,8 @@
                     </div>
                 </div>
 
-                <div id="about_us_section" style="margin-bottom: 100px"></div>
-                <div class="page-header" align="center">
+                <div id="about_us_section"></div>
+                <div class="page-header top-bottom-50-padding" align="center">
                     <h1>Om oss</h1>
                 </div>
 

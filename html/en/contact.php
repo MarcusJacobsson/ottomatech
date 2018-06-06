@@ -102,16 +102,16 @@ function test_input($data) {
             <?php include 'nav.php'; ?>
             <div class="container">
 
-        <div class="row" id="first">
+                <div class="row" id="first">
                     <div class="col-xs-12 col-md-12 col-lg-12">
                         <h2>Do you have any questions or concerns?</h2>
 
                         <p class="lead">
                             Please fill in the contact form below, and we will get back to you as soon as possible.
                         </p>
-                <br>
-                <br>
-                
+                        <br>
+                        <br>
+
                         <p>Fields marked with <strong>*</strong> must be provided. No contact information is stored permanently.
                         </p>
                     </div>
@@ -158,7 +158,7 @@ function test_input($data) {
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-offset-2 col-sm-10">
-                                    <button type="submit" class="btn btn-primary">Send</button>
+                                    <button type="submit" class="btn">Send</button>
                                 </div>
                             </div>
                         </form>
@@ -167,6 +167,6 @@ function test_input($data) {
             </div>
             <div id="push"></div>
         </div>
-<?php include '../shared/footer.php'; ?>
+        <?php include '../shared/footer.php'; ?>
     </body>
 </html>

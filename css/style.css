@@ -150,8 +150,9 @@ body {
     padding-bottom: 40px;
 }
 
-#welcome-banner-img{
-    padding-bottom: 250px;
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
 }
 
 .top-bottom-50-padding{

@@ -102,15 +102,15 @@ function test_input($data) {
             <?php include 'nav.php'; ?>
             <div class="container">
                 <div class="row" id="first">
-            <div class="col-xs-12 col-md-12 col-lg-12">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
                         <h2>Har du några frågor eller synpunkter?</h2>
-                        
+
                         <p class="lead">
                             Var vänlig fyll i formen nedan,
                             så återkommer vi till dig så snabbt vi kan.
                         </p>
-                <br>
-                <br>
+                        <br>
+                        <br>
 
                         <p>Fält markerade med <strong>*</strong> måste fyllas i. Inga uppgifter lagras.</p>
                     </div>
@@ -156,7 +156,7 @@ function test_input($data) {
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-offset-2 col-sm-10">
-                                    <button type="submit" class="btn btn-primary">Skicka</button>
+                                    <button type="submit" class="btn">Skicka</button>
                                 </div>
                             </div>
                         </form>
@@ -165,6 +165,6 @@ function test_input($data) {
             </div>
             <div id="push"></div>
         </div>
-<?php include '../shared/footer.php'; ?>
+        <?php include '../shared/footer.php'; ?>
     </body>
 </html>
