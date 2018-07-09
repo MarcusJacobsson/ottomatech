@@ -55,10 +55,10 @@
 
                 <div class="jumbotron slideanim">
                     <div class="row">
-                        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
                             <img class="img-responsive img-rounded index-img" src="../../images/slide/image1.jpg" alt="slide1">
                         </div>
-                        <div class="col-xs-6 col-sm-9 col-md-9 col-lg-9">
+                        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
                             <h2>Engineering</h2>
                             <p>Förstudier och funktionsbeskrivningar extraheras noggrant ur era specifika fall.</p>
                         </div>
@@ -67,11 +67,11 @@
 
                 <div class="jumbotron slideanim">
                     <div class="row">
-                        <div class="col-xs-6 col-sm-9 col-md-9 col-lg-9">
+                        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
                             <h2>Automation</h2>
                             <p>Genom vår spetskompetens inom el och automation hittar vi lösningen som passar dig bäst.</p>
                         </div>
-                        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
                             <img class="img-responsive img-rounded index-img" src="../../images/slide/image4.jpg" alt="slide4">
                         </div>
                     </div>
@@ -79,10 +79,10 @@
 
                 <div class="jumbotron slideanim">
                     <div class="row">
-                        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
                             <img class="img-responsive img-rounded index-img" src="../../images/slide/image3.jpg" alt="slide3">
                         </div>
-                        <div class="col-xs-6 col-sm-9 col-md-9 col-lg-9">
+                        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
                             <h2>PLC/HMI/SCADA</h2>
                             <p>Vi erbjuder tjänster såsom programmering, mjukvaruutveckling och design.</p>
                         </div>
@@ -91,11 +91,11 @@
 
                 <div class="jumbotron slideanim">
                     <div class="row">
-                        <div class="col-xs-6 col-sm-9 col-md-9 col-lg-9">
+                        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
                             <h2>Övriga tjänster</h2>
                             <p>Utöver ovan presenterade tjänster erbjuder vi kontinuerlig support och service.</p>
                         </div>
-                        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
                             <img class="img-responsive img-rounded index-img" src="../../images/ottochef.jpg" alt="slide2">
                         </div>
                     </div>
@@ -125,7 +125,6 @@
                         <p> Vi sammarbetar med varierande verksamheter inom process och matindustri. Tveka inte att kontakta oss för att diskutera Din lösning.</p>
                     </div>
                 </div>
-
 
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 ">
