@@ -30,18 +30,6 @@
             <ul class="nav navbar-nav navbar-right">
                 <li>
                     <p class="navbar-btn social-btn">
-                        <a href="https://www.facebook.com/OttoMaTech?fref=ts" class="btn"><img
-                                src="../../images/facebook-icon.png" alt="fb"></a>
-                    </p>
-                </li>
-                <li>
-                    <p class="navbar-btn social-btn">
-                        <a href="https://twitter.com/OttoMaTech" class="btn"><img src="../../images/twitter-icon.jpg"
-                                                                                  alt="tw"></a>
-                    </p>
-                </li>
-                <li>
-                    <p class="navbar-btn social-btn">
                         <a href="https://www.linkedin.com/company/4831396?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A4831396%2Cidx%3A1-1-1%2CtarId%3A1439917858568%2Ctas%3Aottomatech" class="btn"><img
                                 src="../../images/linkedin-icon.png" alt="li"></a>
                     </p>
