@@ -1,24 +1,24 @@
-/**
- * Created by Marcus Jacobsson on 2015-07-22.
- */
-    //jQuery Smooth Page Jumps
-$(function() {
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
 
-    var theDestinations = $('a[name]');
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
 
-    theDestinations.each(function(i){
+      // Store hash
+      var hash = this.hash;
 
-        var thisDestination =  $(this),
-            thisDestinationOffset = thisDestination.offset(),
-            thisLink = $("a[href=#" + thisDestination.attr("name") + "]");
-
-        if(thisLink.length > 0) {
-            thisLink.click(function(){
-
-                $('html,body').animate({scrollTop : thisDestinationOffset.top}, 500);
-                return false;
-
-            });
-        }
-    });
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1200, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
 });
