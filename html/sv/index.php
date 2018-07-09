@@ -39,9 +39,7 @@
                             </div>
                             <h4>OttoMaTech Engineering AB Är ett teknikföretag som tillhandahåller systemlösningar och tjänster inom industriell automation.
                                 Vi hjälper dig att hitta den skräddarsydda industriella automationslösningen som passar dina behov.</h4>
-
                             <a href="#services_section" class="a-style-inherit"><button type="button" class="btn">Berätta mer</button></a>
-                            <a href="#about_us_section" class="a-style-inherit"><button type="button" class="btn">Vem är ni?</button></a>
                         </div>
                     </div>
                 </div>
@@ -104,34 +102,6 @@
                 <div class="slideanim top-bottom-50-padding">
                     <div align="center">
                         <h1>Kolla in våra <a href="services.php">tjänster</a> för att läsa mer!</h1>
-                    </div>
-                </div>
-
-                <div id="about_us_section"></div>
-                <div class="page-header top-bottom-50-padding" align="center">
-                    <h1>Om oss</h1>
-                </div>
-
-                <div class="row">
-                    <div class="col-xs-12 col-md-12 col-lg-6 ">
-                        <p>Othmane (Otto) är certifierad el- och automationsingenjör som bor i Oxie i södra Sverige.</p>
-                    </div>
-                    <div class="col-xs-12 col-md-12 col-lg-6">
-
-                        <p>OttoMaTech specialiserar sig inom industriell automation och tillsammans med våra kunder löser vi industriella problem och utmaningar. Vi designar, konstruerar, programmerar, dokumenterar, utför idrifttagning samt felsökning.</p>
-
-                        <p> Vi erbjuder skräddarsydda indistriella automationslösningar men även hjälp med att finna rätt utrustning, nytt som gammalt. (Maskiner, linjer, etc.) </p>
-
-                        <p> Vi sammarbetar med varierande verksamheter inom process och matindustri. Tveka inte att kontakta oss för att diskutera Din lösning.</p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 ">
-                        <img class="img-responsive" src="../../images/otto.jpg" alt="otto">
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <img class="img-responsive" src="../../images/general.png" alt="general">
                     </div>
                 </div>
 

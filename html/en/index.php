@@ -41,7 +41,6 @@
                                 automation and service. We assist You in finding tailored industrial automation solution
                                 that fit Your needs.</h4>
                             <a href="#services_section" class="a-style-inherit"><button type="button" class="btn">Tell me more</button></a>
-                            <a href="#about_us_section" class="a-style-inherit"><button type="button" class="btn">Who are you?</button></a>
                         </div>
                     </div>
                 </div>
@@ -104,39 +103,6 @@
                 <div class="slideanim top-bottom-50-padding">
                     <div align="center">
                         <h1>Check out our <a href="services.php">services</a> to read more!</h1>
-                    </div>
-                </div>
-
-                <div id="about_us_section"></div>
-                <div class="page-header top-bottom-50-padding" align="center">
-                    <h1>About us</h1>
-                </div>
-
-                <div class="row">
-                    <div class="col-xs-12 col-md-12 col-lg-6 ">
-                        <p>Othmane (Otto) is a certified electric and automation engineer residing in Oxie in the south of
-                            Sweden.</p>
-                    </div>
-                    <div class="col-xs-12 col-md-12 col-lg-6">
-
-                        <p>OttoMaTech specialize in industrial automation and together with our customers we solve industrial
-                            applications. We design, construct, program, document, perform commissioning and
-                            troubleshooting.</p>
-
-                        <p> We offer customized industrial automation solutions aswell as providing help finding the
-                            right equipment, new aswell as used (Machines, lines, etc.) </p>
-
-                        <p> We collaborate with various business cooperation experts in process and food industries.
-                            If you are direct or candidate, do not hesitate to contact us to discuss your solution.</p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 ">
-                        <img class="img-responsive" src="../../images/otto.jpg" alt="otto">
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <img class="img-responsive" src="../../images/general.png" alt="general">
                     </div>
                 </div>
 
