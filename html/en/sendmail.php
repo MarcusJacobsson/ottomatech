@@ -7,7 +7,7 @@
  * Time: 17:12
  */
 function sendMail($name, $email, $phone, $message) {
-    $subject = "Nytt meddelande från OttoMaTech.se kontaktformulär";
+    $subject = "Nytt meddelande fran OttoMaTech.se kontaktformular";
     $to = "info@ottomatech.se , marcus.jacobsson@ottomatech.se";
 
     $body = '<html>
