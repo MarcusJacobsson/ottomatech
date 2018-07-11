@@ -1,18 +1,16 @@
 <?php
+
 /**
  * Created by PhpStorm.
  * User: Marcus Jacobsson
  * Date: 2015-01-13
  * Time: 17:12
  */
+function sendMail($name, $email, $phone, $message) {
+    $subject = "Nytt meddelande från OttoMaTech.se kontaktformulär";
+    $to = "otto.m@ottomatech.se , marcus.jacobsson@ottomatech.se";
 
-function sendMail($name, $email, $phone, $message)
-{
-    $subject = "Form submission from OttoMaTech.se";
-    $to = "otto.m@ottomatech.se";
-
-    $body =
-       '<html>
+    $body = '<html>
         <head>
             <title>Meddelande från OttoMaTech.se</title>
         </head>
@@ -38,15 +36,14 @@ function sendMail($name, $email, $phone, $message)
         </body>
         </html>';
 
-    $headers  = 'MIME-Version: 1.0' . "\r\n";
+    $headers = 'MIME-Version: 1.0' . "\r\n";
     $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
 
     $success = mail($to, $subject, $body, $headers);
 
-    if($success){
+    if ($success) {
         echo '<script> alert ("Tack för ditt meddelande! Vi återkommer inom det snaraste.") </script>';
-    }else{
+    } else {
         echo '<script> alert ("Tyvärr, ditt meddelandet kunde inte skickas.") </script>';
     }
 }
-
