@@ -54,10 +54,10 @@
 
                 <div class="jumbotron slideanim">
                     <div class="row">
-                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                            <img class="img-responsive img-rounded index-img" src="../../images/slide/image1.jpg" alt="slide1">
+                        <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                            <img class="img-responsive img-rounded index-img" src="../../images/20180603_070708.jpg" alt="slide1">
                         </div>
-                        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                        <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
                             <h2>Engineering</h2>
                             <p>Pre-studies and function desriptions are carefully extracted from the given cases.</p>
                         </div>
@@ -66,22 +66,22 @@
 
                 <div class="jumbotron slideanim">
                     <div class="row">
-                        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                        <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
                             <h2>Automation</h2>
                             <p>Through our excellence in electrical and automation we will find the solution most suited for You.</p>
                         </div>
-                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                            <img class="img-responsive img-rounded index-img" src="../../images/slide/image4.jpg" alt="slide4">
+                        <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                            <img class="img-responsive img-rounded index-img" src="../../images/20180603_070447.jpg" alt="slide4">
                         </div>
                     </div>
                 </div>
 
                 <div class="jumbotron slideanim">
                     <div class="row">
-                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                            <img class="img-responsive img-rounded index-img" src="../../images/slide/image3.jpg" alt="slide3">
+                        <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                            <img class="img-responsive img-rounded index-img" src="../../images/image3.jpg" alt="slide3">
                         </div>
-                        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                        <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
                             <h2>PLC/HMI/SCADA</h2>
                             <p>Services such as programming, software development & design are provided.</p>
                         </div>
@@ -90,12 +90,12 @@
 
                 <div class="jumbotron slideanim">
                     <div class="row">
-                        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                        <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
                             <h2>Other services</h2>
                             <p>We provide our customers with continuous service and support.</p>
                         </div>
-                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                            <img class="img-responsive img-rounded index-img" src="../../images/ottochef.jpg" alt="slide2">
+                        <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 ">
+                            <img class="img-responsive img-rounded index-img" src="../../images/20180603_070900.jpg" alt="slide2">
                         </div>
                     </div>
                 </div>
