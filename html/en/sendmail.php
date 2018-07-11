@@ -8,7 +8,7 @@
  */
 function sendMail($name, $email, $phone, $message) {
     $subject = "Nytt meddelande från OttoMaTech.se kontaktformulär";
-    $to = "otto.m@ottomatech.se , marcus.jacobsson@ottomatech.se";
+    $to = "info@ottomatech.se , marcus.jacobsson@ottomatech.se";
 
     $body = '<html>
         <head>
